@@ -1,0 +1,124 @@
+ 여진승님 환영합니다
+DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/iframe_form_check.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/iframe_form_check.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+a=10
+10
+aler(a)
+VM121:1 Uncaught ReferenceError: aler is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM121:1
+alert(a)
+undefined
+confirm
+ƒ confirm() { [native code] }
+confirm("종료하시겠습니까?")
+true
+prompt("당신의 이름은?")
+'코와이네'
+prompt("당신의 이름은?")
+'여진승'
+prompt("종료하시겠습니까?(예/아니오)","예")
+'예'
+name= 여진승
+VM580:1 Uncaught ReferenceError: 여진승 is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM580:1
+name="여진승"
+'여진승'
+console.log(name + "님 환영합니다")
+VM781:1 여진승님 환영합니다
+undefined
+document.write("제 이름은" + name "입니다.")
+VM1050:1 Uncaught SyntaxError: missing ) after argument list
+Document.write("제 이름은" + name +"입니다.
+VM1251:1 Uncaught SyntaxError: Invalid or unexpected token
+Document.write("제 이름은" + name +"입니다.")
+VM1262:1 Uncaught TypeError: Document.write is not a function
+    at <anonymous>:1:10
+(anonymous) @ VM1262:1
+document.write("제 이름은" + name +"입니다.")
+undefined
+DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/iframe_form_check.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+save as
+VM1297:1 Uncaught SyntaxError: Unexpected identifier 'as'
+saveas
+VM1313:1 Uncaught ReferenceError: saveas is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1313:1
+name
+VM1381:1 Uncaught SyntaxError: Unexpected identifier 'failed'
+docu
+VM1422:1 Uncaught ReferenceError: docu is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1422:1
+docu
+VM1439:1 Uncaught ReferenceError: docu is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1439:1
+document.write("제 이름은" + name "입니다.")
+VM1461:1 Uncaught SyntaxError: missing ) after argument list
+document.write("제 이름은" + name +"입니다.")
+undefined
+name=여진승
+VM1526:1 Uncaught ReferenceError: 여진승 is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1526:1
+name="여진승"
+'여진승'
+let result
+undefined
+result = 10
+10
+result = 20
+20
+const number = 10
+undefined
+number
+10
+result
+20
+nuber = 20
+20
+number=20
+VM1874:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:7
+(anonymous) @ VM1874:1
+let age = 22
+undefined
+console.log(name+"님 나이는" + age + "세 입니다.")
+VM2187:1 여진승님 나이는22세 입니다.
+undefined
+console.log(`${name님의 나이는 ${age}세 입니다.`)
+VM2278:1 Uncaught SyntaxError: Missing } in template expression
+console.log(`${name}님의 나이는 ${age}세 입니다.`)
+VM2286:1 여진승님의 나이는 22세 입니다.
+undefined
+let student ={
+    major : "컴퓨터 공학부",
+    idNum : 201995052,
+    name:"여진승"
+}
+undefined
+student
+{major: '컴퓨터 공학부', idNum: 201995052, name: '여진승'}
+student.name
+'여진승'
+student.id
+undefined
+student.idNum
+201995052
+student["major"]
+'컴퓨터 공학부'
+let id = Symbol()
+undefined
+id
+Symbol()
+const member = {
+    name:"여진승",
+    [id] : 12345
+}
+undefined
+member
+{name: '여진승', Symbol(): 12345}
+member[id]
+12345
